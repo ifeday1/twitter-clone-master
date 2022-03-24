@@ -14,6 +14,7 @@ function Feed() {
     );
   }, []);
 
+  console.log(posts)
   return (
     <div className="feed">
       <div className="feed__header">
